@@ -1,0 +1,44 @@
+{
+  "name": "graphql-transform-schema",
+  "version": "0.1.0-beta5",
+  "description": "Transform, filter & alias resolvers of a GraphQL schema",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rm -rf lib && tsc",
+    "test": "npm run build && ava lib/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphcool/graphql-schema-transform.git"
+  },
+  "keywords": [
+    "graphql",
+    "schema",
+    "resolver",
+    "graphcool"
+  ],
+  "author": "Johannes Schickling <johannes@graph.cool>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graphcool/graphql-schema-transform/issues"
+  },
+  "homepage": "https://github.com/graphcool/graphql-schema-transform#readme",
+  "dependencies": {
+    "graphql": "^0.11.2",
+    "lodash": "^4.17.4",
+    "minimatch": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/graphql": "^0.11.0",
+    "@types/lodash": "^4.14.74",
+    "@types/minimatch": "^3.0.1",
+    "ava": "^0.22.0",
+    "graphql-tools": "^1.2.2",
+    "typescript": "^2.5.2"
+  }
+}
