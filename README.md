@@ -51,7 +51,7 @@ const transformedSchema = transformSchema(schema, {
 })
 ```
 
-#### Overwrite arguments
+#### Overwrite resolved data
 
 ```ts
 const typeDefs = `
@@ -78,7 +78,7 @@ const transformedSchema = transformSchema(schema, {
 })
 ```
 
-#### Overwrite resolved data
+#### Overwrite arguments
 
 ```ts
 const typeDefs = `
