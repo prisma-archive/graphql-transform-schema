@@ -105,6 +105,12 @@ const transformedSchema = transformSchema(schema, {
 })
 ```
 
+## Next steps
+
+- [ ] Alias/rename types and fields
+- [ ] Transform field arguments
+- [ ] Compose new queries/mutations out of existing queries/mutations
+
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
 Join our [Slack community](http://slack.graph.cool/) if you run into issues or have questions. We love talking to you!
