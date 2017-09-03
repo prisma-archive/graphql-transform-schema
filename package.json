@@ -1,6 +1,6 @@
 {
   "name": "graphql-transform-schema",
-  "version": "0.1.0-beta5",
+  "version": "0.1.0",
   "description": "Transform, filter & alias resolvers of a GraphQL schema",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
