@@ -9,7 +9,7 @@ yarn add graphql-transform-schema
 
 ## Usage
 
-By default `transformSchema` passes through all queries/mutations. [Open Demo](https://example-rakllksfme.now.sh/graphiql).
+By default `transformSchema` passes through all queries/mutations. ([Open Demo](https://example-rakllksfme.now.sh/graphiql))
 
 ```ts
 import { transformSchema } from 'graphql-transform-schema'
