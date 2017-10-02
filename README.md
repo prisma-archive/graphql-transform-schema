@@ -1,4 +1,6 @@
 # graphql-transform-schema [![Build Status](https://travis-ci.org/graphcool/graphql-transform-schema.svg?branch=master)](https://travis-ci.org/graphcool/graphql-transform-schema) [![npm version](https://badge.fury.io/js/graphql-transform-schema.svg)](https://badge.fury.io/js/graphql-transform-schema)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/graphcool/graphql-transform-schema.svg)](https://greenkeeper.io/)
 Transform, filter & alias resolvers of a GraphQL schema
 
 ## Install
