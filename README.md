@@ -29,6 +29,21 @@ const transformedSchema = transformSchema(schema, {
   Starship: true,
   allStarships: true,
 })
+
+const transformedSchema = transformSchema(schema, {
+  Query: {
+    '*': false,
+    Starship: true,
+    allStarships: true,
+  },
+  Mutation: {
+  
+  },
+  Starship: {
+    '*': false,
+    id: true,
+  },
+})
 ```
 
 ### API
