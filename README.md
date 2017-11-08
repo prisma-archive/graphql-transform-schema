@@ -62,8 +62,10 @@ function transformSchema(schema: GraphQLSchema, rules: Rules): GraphQLSchema
 
 ```ts
 const transformedSchema = transformSchema(schema, {
-  'create*': false,
-  'delete*': false,
+  Mutation: {
+    'create*': false,
+    'delete*': false
+  }
 })
 ```
 
