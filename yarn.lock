@@ -44,9 +44,9 @@
   dependencies:
     arrify "^1.0.1"
 
-"@types/graphql@^0.11.0":
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.11.5.tgz#e70f051e80b299be5b12f7e60d962f30c9596072"
+"@types/graphql@^14.0.1":
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.0.1.tgz#ff44c20fefdf0cf8c390f64b0dfbbc3c10dbaa87"
 
 "@types/lodash@^4.14.80":
   version "4.14.80"
